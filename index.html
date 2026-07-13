@@ -45,6 +45,7 @@
       "url": "https://another-stupid-monday.halim-jarrar.de/",
       "downloadUrl": "https://apps.apple.com/us/app/another-stupid-monday/id6782894277",
       "image": "https://another-stupid-monday.halim-jarrar.de/assets/app-icon.jpg",
+      "screenshot": "https://another-stupid-monday.halim-jarrar.de/assets/app-store-iphone-one-task.webp",
       "author": {
         "@id": "https://another-stupid-monday.halim-jarrar.de/#creator"
       },
@@ -110,16 +111,10 @@
     .subnote { margin:13px 0 0; color:var(--muted); font-size:.87rem; }
     .phone-scene { position:relative; min-height:560px; display:grid; place-items:center; }
     .sun { position:absolute; width:360px; height:360px; border-radius:50%; background:#e7c19d; filter:blur(.2px); opacity:.72; transform:translate(24px,-18px); }
-    .phone { position:relative; width:min(294px,75vw); padding:10px; border:8px solid #24231f; border-radius:42px; background:#24231f; box-shadow:0 35px 65px rgba(55,39,24,.3); transform:rotate(4deg); }
-    .screen { overflow:hidden; min-height:515px; border-radius:26px; padding:26px 22px; background:linear-gradient(155deg,#fff9eb,#f2d7bd 82%); }
-    .notch { width:100px; height:20px; margin:-26px auto 27px; border-radius:0 0 13px 13px; background:#24231f; }
-    .screen-label { color:#746858; font-size:.72rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
-    .screen h3 { margin:16px 0 20px; font:500 2.35rem/.98 var(--serif); letter-spacing:-.04em; }
-    .task { padding:19px; border:1px solid rgba(76,59,37,.17); border-radius:16px; background:rgba(255,253,248,.76); box-shadow:0 10px 24px rgba(96,66,36,.09); }
-    .task small { color:#827260; font-size:.7rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
-    .task p { margin:9px 0 0; font-size:1.04rem; line-height:1.35; }
-    .dots { display:flex; gap:7px; margin:28px 0 0; }
-    .dots i { width:7px; height:7px; border-radius:50%; background:#d1bda5; } .dots i:first-child { width:24px; border-radius:9px; background:var(--clay); }
+    .phone { position:relative; width:min(294px,75vw); padding:9px; border:8px solid #24231f; border-radius:42px; background:#24231f; box-shadow:0 35px 65px rgba(55,39,24,.3); transform:rotate(4deg); }
+    .screen { overflow:hidden; border-radius:26px; background:#000; }
+    .screen img { display:block; width:100%; height:auto; }
+
     .stamp { position:absolute; right:0; bottom:48px; padding:9px 13px; border:1px solid var(--line); border-radius:99px; background:var(--paper); color:var(--muted); font-size:.76rem; transform:rotate(-4deg); box-shadow:0 8px 22px rgba(54,42,28,.08); }
     .rule { border:0; border-top:1px solid var(--line); margin:0; }
     .intro { display:grid; grid-template-columns:.78fr 1.22fr; gap:52px; padding:112px 0; }
@@ -177,13 +172,7 @@
       <div class="phone-scene" aria-label="A preview of an Another Stupid Monday weekly task">
         <div class="sun" aria-hidden="true"></div>
         <div class="phone">
-          <div class="screen">
-            <div class="notch" aria-hidden="true"></div>
-            <div class="screen-label">This week</div>
-            <h3>One small<br>thing.</h3>
-            <div class="task"><small>Your task</small><p>Choose one person and send them a short message.</p></div>
-            <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
-          </div>
+          <div class="screen"><img src="assets/app-store-iphone-one-task.webp" width="600" height="1300" alt="Official iPhone screenshot of Another Stupid Monday showing weekly task 001, Gratitude List."></div>
         </div>
         <span class="stamp">No streaks. No guilt.</span>
       </div>
