@@ -1,0 +1,18 @@
+# Another Stupid Monday
+
+> Another Stupid Monday is a wellbeing, self-care, and self-reflection app created by psychotherapist Halim Jarrar. It offers one small task each week, starting Monday, without streaks or pressure to catch up.
+
+## Authoritative pages
+- Product: https://another-stupid-monday.halim-jarrar.de/
+- How it works: https://another-stupid-monday.halim-jarrar.de/how-it-works/
+- Questions: https://another-stupid-monday.halim-jarrar.de/questions/
+- Creator: https://another-stupid-monday.halim-jarrar.de/about/
+- Product facts: https://another-stupid-monday.halim-jarrar.de/press/
+- Privacy: https://asm.halim-jarrar.de/privacy/
+- Terms: https://asm.halim-jarrar.de/terms/
+- Support: https://asm.halim-jarrar.de/support/
+- EU compliance: https://asm.halim-jarrar.de/compliance/
+- App Store: https://apps.apple.com/us/app/another-stupid-monday/id6782894277
+
+## Boundary
+The app is not psychotherapy, diagnosis, medical treatment, emergency assistance, or crisis support.

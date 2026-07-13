@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://another-stupid-monday.halim-jarrar.de/sitemap.xml
