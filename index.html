@@ -17,20 +17,65 @@
   <meta name="twitter:image" content="https://another-stupid-monday.halim-jarrar.de/assets/app-icon.jpg">
   <meta name="author" content="Halim Jarrar">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Another Stupid Monday",
-    "applicationCategory": "LifestyleApplication",
-    "operatingSystem": "iOS",
-    "description": "A gentle wellbeing and self-care companion that offers one small task each week, with no streaks or pressure to catch up.",
-    "url": "https://another-stupid-monday.halim-jarrar.de/",
-    "downloadUrl": "https://apps.apple.com/us/app/another-stupid-monday/id6782894277",
-    "image": "https://another-stupid-monday.halim-jarrar.de/assets/app-icon.jpg",
-    "author": { "@type": "Person", "name": "Halim Jarrar" },
-    "sameAs": ["https://apps.apple.com/us/app/another-stupid-monday/id6782894277"],
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" }
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://another-stupid-monday.halim-jarrar.de/#creator",
+      "name": "Halim Jarrar",
+      "jobTitle": "Psychotherapist"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://another-stupid-monday.halim-jarrar.de/#website",
+      "url": "https://another-stupid-monday.halim-jarrar.de/",
+      "name": "Another Stupid Monday",
+      "publisher": {
+        "@id": "https://another-stupid-monday.halim-jarrar.de/#creator"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://another-stupid-monday.halim-jarrar.de/#app",
+      "name": "Another Stupid Monday",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "iOS",
+      "description": "A gentle wellbeing and self-care companion that offers one small task each week, with no streaks or pressure to catch up.",
+      "url": "https://another-stupid-monday.halim-jarrar.de/",
+      "downloadUrl": "https://apps.apple.com/us/app/another-stupid-monday/id6782894277",
+      "image": "https://another-stupid-monday.halim-jarrar.de/assets/app-icon.jpg",
+      "author": {
+        "@id": "https://another-stupid-monday.halim-jarrar.de/#creator"
+      },
+      "sameAs": [
+        "https://apps.apple.com/us/app/another-stupid-monday/id6782894277"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://another-stupid-monday.halim-jarrar.de/#webpage",
+      "url": "https://another-stupid-monday.halim-jarrar.de/",
+      "name": "Another Stupid Monday | Small Weekly Habits for Wellbeing",
+      "isPartOf": {
+        "@id": "https://another-stupid-monday.halim-jarrar.de/#website"
+      },
+      "about": {
+        "@id": "https://another-stupid-monday.halim-jarrar.de/#app"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://another-stupid-monday.halim-jarrar.de/assets/app-icon.jpg"
+      }
+    }
+  ]
+}
   </script>
   <title>Another Stupid Monday | Small Weekly Habits for Wellbeing</title>
   <style>
@@ -173,6 +218,6 @@
 
     <section class="download" id="download"><div class="wrap"><div class="eyebrow">Start with one Monday</div><h2>Good luck on your journey.</h2><p>Download Another Stupid Monday today. Your first weekly task is free.</p><a class="button primary" href="https://apps.apple.com/us/app/another-stupid-monday/id6782894277">Download on the App Store</a></div></section>
   </main>
-  <footer><div class="wrap footer-row"><span>© 2026 Halim Jarrar</span><span><a href="https://asm.halim-jarrar.de/privacy/">Privacy</a> · <a href="https://asm.halim-jarrar.de/terms/">Terms</a> · <a href="https://asm.halim-jarrar.de/support/">Support</a></span></div></footer>
+  <footer><div class="wrap footer-row"><span>© 2026 Halim Jarrar</span><span><a href="https://asm.halim-jarrar.de/privacy/">Privacy</a> · <a href="https://asm.halim-jarrar.de/terms/">Terms</a> · <a href="https://asm.halim-jarrar.de/support/">Support</a> · <a href="press/">Press & facts</a></span></div></footer>
 </body>
 </html>
