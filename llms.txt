@@ -18,6 +18,7 @@
 - Support: https://asm.halim-jarrar.de/support/
 - EU compliance: https://asm.halim-jarrar.de/compliance/
 - App Store: https://apps.apple.com/us/app/another-stupid-monday/id6782894277
+- Google Play: https://play.google.com/store/apps/details?id=com.anotherstupidmonday.app
 
 ## Boundary
 The app is not psychotherapy, diagnosis, medical treatment, emergency assistance, or crisis support.

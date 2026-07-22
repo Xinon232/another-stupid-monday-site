@@ -53,18 +53,22 @@
       "@id": "https://another-stupid-monday.halim-jarrar.de/#app",
       "name": "Another Stupid Monday",
       "applicationCategory": "LifestyleApplication",
-      "operatingSystem": "iOS",
+      "operatingSystem": "iOS, Android",
       "inLanguage": "en",
       "description": "A gentle wellbeing and self-care companion that offers one small task each week, with no streaks or pressure to catch up.",
       "url": "https://another-stupid-monday.halim-jarrar.de/",
-      "downloadUrl": "https://apps.apple.com/us/app/another-stupid-monday/id6782894277",
+      "downloadUrl": [
+        "https://apps.apple.com/us/app/another-stupid-monday/id6782894277",
+        "https://play.google.com/store/apps/details?id=com.anotherstupidmonday.app"
+      ],
       "image": "https://another-stupid-monday.halim-jarrar.de/assets/app-icon.jpg",
       "screenshot": "https://another-stupid-monday.halim-jarrar.de/assets/app-store-iphone-one-task.webp",
       "author": {
         "@id": "https://another-stupid-monday.halim-jarrar.de/#creator"
       },
       "sameAs": [
-        "https://apps.apple.com/us/app/another-stupid-monday/id6782894277"
+        "https://apps.apple.com/us/app/another-stupid-monday/id6782894277",
+        "https://play.google.com/store/apps/details?id=com.anotherstupidmonday.app"
       ],
       "offers": {
         "@type": "Offer",
@@ -156,6 +160,7 @@
     .download { padding:86px 0 92px; text-align:center; background:#ead4bb; }
     .download h2 { margin:12px auto 18px; max-width:720px; }
     .download p { max-width:540px; margin:0 auto 26px; color:#665d52; }
+    .download .buttons { justify-content:center; }
     footer { padding:32px 0; color:var(--muted); font-size:.86rem; }
     .footer-row { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
     .footer-row a { text-decoration:none; } .footer-row a:hover { color:var(--clay-dark); }
@@ -188,8 +193,9 @@
         <p class="lede">Another Stupid Monday gives you one small, manageable self-care task each week. No daily goals. No race to keep up. Just one gentle next step.</p>
         <div class="buttons">
           <a class="button primary" href="https://apps.apple.com/us/app/another-stupid-monday/id6782894277" aria-label="Download Another Stupid Monday on the App Store">Download on the App Store</a>
+          <a class="button primary" href="https://play.google.com/store/apps/details?id=com.anotherstupidmonday.app" aria-label="Get Another Stupid Monday on Google Play">Get it on Google Play</a>
         </div>
-        <p class="subnote">Your first Monday is free. Available for iPhone and iPad.</p>
+        <p class="subnote">Your first Monday is free. Available for iPhone, iPad, and Android.</p>
       </div>
       <div class="phone-scene" aria-label="A preview of an Another Stupid Monday weekly task">
         <div class="sun" aria-hidden="true"></div>
@@ -227,7 +233,7 @@
       </div>
     </section>
 
-    <section class="download" id="download"><div class="wrap"><div class="eyebrow">Start with one Monday</div><h2>Good luck on your journey.</h2><p>Download Another Stupid Monday today. Your first weekly task is free.</p><a class="button primary" href="https://apps.apple.com/us/app/another-stupid-monday/id6782894277">Download on the App Store</a></div></section>
+    <section class="download" id="download"><div class="wrap"><div class="eyebrow">Start with one Monday</div><h2>Good luck on your journey.</h2><p>Download Another Stupid Monday today. Your first weekly task is free.</p><div class="buttons"><a class="button primary" href="https://apps.apple.com/us/app/another-stupid-monday/id6782894277">Download on the App Store</a><a class="button primary" href="https://play.google.com/store/apps/details?id=com.anotherstupidmonday.app">Get it on Google Play</a></div></div></section>
   </main>
   <footer><div class="wrap footer-row"><span>© 2026 Halim Jarrar</span><span><a href="https://asm.halim-jarrar.de/privacy/">Privacy</a> · <a href="https://asm.halim-jarrar.de/terms/">Terms</a> · <a href="https://asm.halim-jarrar.de/support/">Support</a> · <a href="press/">Press & facts</a></span></div></footer>
 </body>
