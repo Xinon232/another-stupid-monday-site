@@ -5,8 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Build healthy habits one small weekly step at a time. Another Stupid Monday is a gentle wellbeing and self-care companion with no streaks or pressure to catch up.">
   <link rel="canonical" href="https://another-stupid-monday.halim-jarrar.de/">
+  <link rel="alternate" hreflang="en" href="https://another-stupid-monday.halim-jarrar.de/">
+  <link rel="alternate" hreflang="nl-NL" href="https://another-stupid-monday.halim-jarrar.de/nl/">
+  <link rel="alternate" hreflang="de-DE" href="https://another-stupid-monday.halim-jarrar.de/de/">
+  <link rel="alternate" hreflang="es-ES" href="https://another-stupid-monday.halim-jarrar.de/es/">
+  <link rel="alternate" hreflang="fr-FR" href="https://another-stupid-monday.halim-jarrar.de/fr/">
+  <link rel="alternate" hreflang="pt-PT" href="https://another-stupid-monday.halim-jarrar.de/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://another-stupid-monday.halim-jarrar.de/">
   <meta name="theme-color" content="#f5f0e7">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="nl_NL">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta property="og:locale:alternate" content="pt_PT">
   <meta property="og:title" content="Another Stupid Monday | Small weekly habits for wellbeing">
   <meta property="og:description" content="One small weekly step toward healthier habits—with no streaks or pressure to catch up.">
   <meta property="og:url" content="https://another-stupid-monday.halim-jarrar.de/">
@@ -41,6 +54,7 @@
       "name": "Another Stupid Monday",
       "applicationCategory": "LifestyleApplication",
       "operatingSystem": "iOS",
+      "inLanguage": "en",
       "description": "A gentle wellbeing and self-care companion that offers one small task each week, with no streaks or pressure to catch up.",
       "url": "https://another-stupid-monday.halim-jarrar.de/",
       "downloadUrl": "https://apps.apple.com/us/app/another-stupid-monday/id6782894277",
@@ -64,6 +78,7 @@
       "@id": "https://another-stupid-monday.halim-jarrar.de/#webpage",
       "url": "https://another-stupid-monday.halim-jarrar.de/",
       "name": "Another Stupid Monday | Small Weekly Habits for Wellbeing",
+      "inLanguage": "en",
       "isPartOf": {
         "@id": "https://another-stupid-monday.halim-jarrar.de/#website"
       },
@@ -150,6 +165,12 @@
       .intro,.about,.who { grid-template-columns:1fr; gap:26px; padding:78px 0; } .steps { grid-template-columns:1fr; padding-bottom:78px; } .step { min-height:0; } .step h3 { margin-top:24px; }
       .quote { padding:76px 0; } .download { padding:72px 0; } .stamp { right:4px; bottom:18px; }
     }
+    .language-switcher { display:flex; justify-content:flex-end; gap:7px; margin-top:-16px; color:var(--muted); font-size:.78rem; }
+    .language-switcher a { min-width:30px; padding:4px 7px; border:1px solid transparent; border-radius:99px; text-align:center; text-decoration:none; }
+    .language-switcher a:hover { color:var(--clay-dark); border-color:var(--line); }
+    .language-switcher a[aria-current="page"] { background:var(--paper); color:var(--ink); border-color:var(--line); font-weight:800; }
+    a:focus-visible { outline:3px solid var(--clay-dark); outline-offset:4px; border-radius:5px; }
+    @media (max-width:760px) { .language-switcher { justify-content:center; margin-top:0; padding:4px 0 8px; } }
   </style>
 </head>
 <body>
@@ -158,6 +179,7 @@
       <a class="brand" href="/" aria-label="Another Stupid Monday home"><img src="assets/app-icon.jpg" alt="Another Stupid Monday app icon">Another Stupid Monday</a>
       <div class="nav-links"><a href="how-it-works/">How it works</a><a href="questions/">Questions</a><a href="about/">About</a><a href="#download">Download</a></div>
     </nav>
+    <nav class="language-switcher wrap" aria-label="Choose language"><a href="/" hreflang="en" lang="en" aria-current="page">EN</a><a href="/nl/" hreflang="nl-NL" lang="nl-NL">NL</a><a href="/de/" hreflang="de-DE" lang="de-DE">DE</a><a href="/es/" hreflang="es-ES" lang="es-ES">ES</a><a href="/fr/" hreflang="fr-FR" lang="fr-FR">FR</a><a href="/pt/" hreflang="pt-PT" lang="pt-PT">PT</a></nav>
 
     <section class="hero wrap" aria-labelledby="hero-title">
       <div>

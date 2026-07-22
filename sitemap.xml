@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://another-stupid-monday.halim-jarrar.de/</loc></url>
+  <url><loc>https://another-stupid-monday.halim-jarrar.de/nl/</loc></url>
+  <url><loc>https://another-stupid-monday.halim-jarrar.de/de/</loc></url>
+  <url><loc>https://another-stupid-monday.halim-jarrar.de/es/</loc></url>
+  <url><loc>https://another-stupid-monday.halim-jarrar.de/fr/</loc></url>
+  <url><loc>https://another-stupid-monday.halim-jarrar.de/pt/</loc></url>
   <url><loc>https://another-stupid-monday.halim-jarrar.de/about/</loc></url>
   <url><loc>https://another-stupid-monday.halim-jarrar.de/how-it-works/</loc></url>
   <url><loc>https://another-stupid-monday.halim-jarrar.de/questions/</loc></url>

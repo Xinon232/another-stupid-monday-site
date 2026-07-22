@@ -4,6 +4,11 @@
 
 ## Authoritative pages
 - Product: https://another-stupid-monday.halim-jarrar.de/
+- Dutch (Netherlands): https://another-stupid-monday.halim-jarrar.de/nl/
+- German (Germany): https://another-stupid-monday.halim-jarrar.de/de/
+- Spanish (Spain): https://another-stupid-monday.halim-jarrar.de/es/
+- French (France): https://another-stupid-monday.halim-jarrar.de/fr/
+- Portuguese (Portugal): https://another-stupid-monday.halim-jarrar.de/pt/
 - How it works: https://another-stupid-monday.halim-jarrar.de/how-it-works/
 - Questions: https://another-stupid-monday.halim-jarrar.de/questions/
 - Creator: https://another-stupid-monday.halim-jarrar.de/about/
